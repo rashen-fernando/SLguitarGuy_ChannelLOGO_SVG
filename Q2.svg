@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"  width="12cm" height="9cm" viewBox="0 0 400 300">
+	<title>Q2</title>
+	<desc>e-16-103</desc>
+ 
+	<circle cx="70" cy="100" r="50" fill="transparent" stroke="black" stroke-width="2" />
+	<rect x="70" y="45" width="3" height="5"  fill="black"  />
+	<rect x="68" y="42" width="7" rx="1" ry="1" height="3" fill="black" />
+
+	<rect x="88" y="48" width="3" height="5"  fill="black" transform="rotate(20,88,55)" />
+	<rect x="88" y="45" width="7" rx="1" ry="1" height="3" fill="black" transform="rotate(20,88,52)" />
+	
+	<circle cx="70" cy="100" r="8" fill="black" />
+	
+
+	<rect x="48" y="58" rx="1" ry="1" width="3" height="5"  fill="red"  transform="rotate(330,48,57)"/>
+	<rect x="36" y="67" rx="1" ry="1" width="3" height="5"  fill="red"  transform="rotate(315,36,67)"/>
+	<rect x="27" y="78" rx="1" ry="1" width="3" height="5"  fill="red"  transform="rotate(300,27,77)"/>
+
+   <rect x="70" y="55"  rx="1" ry="1" width="2" height="40" fill="black" >
+   <animateTransform attributeName="transform"
+                    type="rotate"
+                    from="0 70 100" to="90 70 100"
+                    begin="0s" dur="15s"
+                    repeatCount="indefinite"/>
+
+	
+	</rect>
+
+
+	
+</svg>
+
+
